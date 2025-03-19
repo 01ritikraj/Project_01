@@ -1,53 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chess Tips for Beginners</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="header">
-    <h1>Top 10 Chess Tips for Beginners</h1>
-    <p>Enhance your chess strategy with these useful tips.</p>
-  </header>
-  
-  <main class="content">
-    <article class="article">
-      <h2>1. Control the Center</h2>
-      <p>Start by controlling the center squares (d4, d5, e4, e5). This gives your pieces more mobility and control.</p>
+/* General Reset */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-      <h2>2. Develop Your Pieces</h2>
-      <p>Get your knights and bishops into the game quickly, aiming to control the center and prepare for castling.</p>
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
 
-      <h2>3. Castle Early</h2>
-      <p>Castling helps protect your king and connects your rooks, making them more effective.</p>
+/* Header Section */
+.header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 12px;
+}
 
-      <h2>4. Don't Move the Same Piece Twice</h2>
-      <p>Try not to waste moves by moving the same piece repeatedly in the opening.</p>
+.header h1 {
+  font-size: 2.5rem;
+}
 
-      <h2>5. Think Ahead</h2>
-      <p>Always consider your opponent’s possible moves and anticipate their plans.</p>
+.header p {
+  font-size: 1.2rem;
+}
 
-      <h2>6. Control Open Files with Your Rooks</h2>
-      <p>Rooks are powerful on open or semi-open files. Place them behind pawns or on open lines.</p>
+/* Main Content */
+.content {
+  margin-top: 30px;
+}
 
-      <h2>7. Protect Your Pieces</h2>
-      <p>Before making a move, check if your piece will be under attack and ensure proper defense.</p>
+.article {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 
-      <h2>8. Manage Your Time</h2>
-      <p>In timed games, manage your time wisely, balancing both speed and careful thinking.</p>
+h2 {
+  color: #4CAF50;
+  margin-top: 20px;
+}
 
-      <h2>9. Practice Endgames</h2>
-      <p>Study simple endgames like king and pawn against king to understand fundamental techniques.</p>
+p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
 
-      <h2>10. Learn from Your Games</h2>
-      <p>Analyze your games to learn from mistakes and improve your strategies.</p>
-    </article>
-  </main>
+/* Footer Section */
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+}
 
-  <footer class="footer">
-    <p>&copy; 2025 Chess Mastery Tips</p>
-  </footer>
-</body>
-</html>
+/* Responsive Design */
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+  .header p {
+    font-size: 1rem;
+  }
+  .article {
+    padding: 20px;
+  }
+} 
